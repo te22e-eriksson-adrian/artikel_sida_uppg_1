@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Sofia&display=swap');
+h1{
+    background-color: yellow;
+    color: blue;
+    margin-top: 5px;
+    margin-bottom: 5%;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 2px solid black;
+    font-family: 'Roboto', Verdana;
+}
+h1, h2{
+    text-align: center;
+}
+.artikel_container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.artikel{
+    background-color: grey;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+body{
+    background-image: url("./showcase.jpg");
+}
